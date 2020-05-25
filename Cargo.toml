@@ -15,7 +15,7 @@ edition = "2018"
 [dependencies]
 serde = "~1.0"
 serde_json = "~1.0"
-geo-types = { git = "https://github.com/georust/geo" }
+geo-types = { git = "https://github.com/georust/geo", optional = true }
 num-traits = "0.2"
 
 [dev-dependencies]
